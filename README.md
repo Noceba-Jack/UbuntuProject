@@ -15,10 +15,10 @@
 
 **11 million South Africans** in townships and rural villages have no bank account. They live entirely on cash. This means:
 
-- ❌ No way to borrow R50 for an emergency school fee or taxi fare
-- ❌ No safe way to receive wages or send money to family
-- ❌ No credit history to ever qualify for a car or home loan
-- ❌ Pay high fees to withdraw cash (if they can find an ATM)
+ ❌ No way to borrow R50 for an emergency school fee or taxi fare
+ ❌ No safe way to receive wages or send money to family
+ ❌ No credit history to ever qualify for a car or home loan
+ ❌ Pay high fees to withdraw cash (if they can find an ATM)
 
 Existing bank accounts demand apps, data, branches, and documents – things most people in townships don't have.
 
@@ -61,11 +61,9 @@ For the hackathon, we have **four working simulations**:
 
 | Component | Technology | Status |
 |-----------|------------|--------|
-| **WhatsApp Bot Simulation** | Web mock | ✅ Simulated |
-| **USSD Menu Simulation** | HTML/JS web‑based menu | ✅ Simulated |
-| **UbuntuFinance Merchant App** | React Native (Android demo) | ✅ Working simulation |
-| **Bank App Demo Interface** | Web mock (mock of Standard Bank’s view) | ✅ simulated |
-| **Fraud Dashboard** | Wen mock | ✅ Simulated |
+| **WhatsApp Bot Simulation** | React Native (Android demo) | ✅ Simulated |
+| **UbuntuFinance Merchant App** | MVC | ✅ Working simulation |
+| **Bank App Demo Interface** | React Native (Android demo) | ✅ simulated |
 
 > **Note:** All components are simulated for the hackathon. Real integration with WhatsApp Business API and banking rails would be implemented post‑hackathon.
 
@@ -121,9 +119,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 |Component              |How to run                                                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
-|**WhatsApp Simulator** |Open ```whatsapp-simulator/index.html in your browser```. Type``` Hi ```to start.                                     |
-|**USSD Simulator**     |Open ```ussd-simulator/index.html.``` Dial \*120\*123# (simulated).                                                   |
-|**Merchant App**       |Follow [merchant-app/README.md](https://merchant-app/README.md) to build the React Native app.                        |
+|**WhatsApp Simulator** |Open ```https://glistening-genie-3e08fa.netlify.app```. Type``` Hi ```to start.                                       |
+|**Merchant App**       |Follow [merchant-app/README.md](https://merchant-app/README.md) to build the MVC app.                                 |
 |**Bank Demo Interface**|Open ```bank-demo/index.html``` – mock of Standard Bank’s view.                                                       |
 
 All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twilio account needed for the hackathon.
@@ -131,13 +128,13 @@ All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twi
 👥 Team
 -------
 
-|Name                 |Role                   |Background                              |
-|---------------------|---------------------  |----------------------------------------|
-|Mothae               |Backend & Database     |Computer Science, university student    |
-|Panache              |Merchant App & API     |Information Systems, university student |
-|Ashirai              |WhatsApp/USSD Simulator|Data Science, university student        |
-|Jack                 |Demo & Pitch           |Business Informatics, university student|
-|Ora                  |Database               |Computer Science, UFS student           |
+|Name                 |Role                        |Background                                |
+|---------------------|----------------------------|------------------------------------------|
+|Mothae               |Merchant App Backend        |Computer Science, 3rd Year UFS Student    |
+|Panache              |Pitch & Whatsapp Simulator  |Information Systems, 3rd Year UFS Student |
+|Ashirai              |WhatsApp Backend            |Computer Science, 3rd Year UFS Student    |
+|Jack                 |Merchant App Frontend       |Business Informatics, 3rd Year UFS Student|
+|Ora                  |Database                    |Computer Science, 3rd Year UFS Student    |
 
 We are five university students who built this in 36 hours for the \[UFS ITSA - Beat the Banker Hackathon] 2026.
 
@@ -148,7 +145,7 @@ This project was built for a hackathon and is not actively maintained.
 
 📬 Simulations
 ----------
-*   **Whatsapp & Standard Bank Side** (demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
+*   **Whatsapp & Standard Bank Side** (web app demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
 *   **Merchant App** (demo): [Website Link]()
     
 
