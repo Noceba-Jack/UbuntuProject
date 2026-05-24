@@ -107,6 +107,9 @@ For the hackathon, we have **two working simulations**:
 8.	Click the program.cs file to view the code
 9.	Then finally in the top left press execute.
 
+## This is the Merchant App Demo
+
+https://github.com/user-attachments/assets/65e8d468-4494-4b1b-a442-1ba73f6a41cc
 
 ## How to run the Account Management Site
 Navigate to the root directory of the project and install all necessary dependencies for the monorepo:
