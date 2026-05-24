@@ -2,13 +2,12 @@
 
 # UbuntuProject – Banking for the Unbanked
 
-![Hackathon](https://img.shields.io/badge/Hackathon-2026-blue) ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Database](https://img.shields.io/badge/Database-SQL%20Server-red) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Hackathon](https://img.shields.io/badge/Hackathon-2026-blue) ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Database](https://img.shields.io/badge/Database-SQL%20Server-red) ![GitHub language count](https://img.shields.io/github/languages/count/Noceba-Jack/UbuntuProject)
+
 
 > **Two interconnected systems** that bring formal banking to the 11 million unbanked South Africans in townships and rural areas.  
 > **Ubuntu Account** – a bank account on WhatsApp/USSD.  
 > **UbuntuFinance** – a BaaS platform turning local merchants into micro‑banks.
-
-**[Live Demo Video](#Watch the 3‑minute pitch demo)** | **[Team](#team)**
 
 ---
 
@@ -27,11 +26,11 @@ Existing bank accounts demand apps, data, branches, and documents – things mos
 
 ## Our Solution: Two Systems, One Ecosystem
 
-We built a **complete banking ecosystem** around the unbanked:
+We built a **complete banking ecosystem** around the unbanked who have difficulty taking part in the formal economy:
 
-### 1. Ubuntu Account (For End Users)
+### 1. Ubuntu Card (For End Users)
 
-A full bank account (offered by Standard Bank via UbuntuPay) that works on any phone:
+A full bank account (offered by Standard Bank via UbuntuAccount) that works on any phone:
 
 - **Open in 5 minutes** via WhatsApp or USSD – no branch, no app download.
 - **No data required** – WhatsApp free tier + USSD works on R200 feature phones.
@@ -62,11 +61,11 @@ For the hackathon, we have **four working simulations**:
 
 | Component | Technology | Status |
 |-----------|------------|--------|
-| **WhatsApp Bot Simulation** | Twilio Sandbox / Web mock | ✅ Simulated |
+| **WhatsApp Bot Simulation** | Web mock | ✅ Simulated |
 | **USSD Menu Simulation** | HTML/JS web‑based menu | ✅ Simulated |
 | **UbuntuFinance Merchant App** | React Native (Android demo) | ✅ Working simulation |
-| **Bank App Demo Interface** | Static HTML/CSS (mock of Standard Bank’s view) | ✅ Static demo |
-| **Fraud Dashboard** | Python/Flask + Chart.js | ✅ Simulated |
+| **Bank App Demo Interface** | Web mock (mock of Standard Bank’s view) | ✅ simulated |
+| **Fraud Dashboard** | Wen mock | ✅ Simulated |
 
 > **Note:** All components are simulated for the hackathon. Real integration with WhatsApp Business API and banking rails would be implemented post‑hackathon.
 
@@ -77,12 +76,11 @@ For the hackathon, we have **four working simulations**:
 | Layer | Technology |
 |-------|------------|
 | **Database** | Microsoft SQL Server (Express) |
-| **Backend (Mock APIs)** | Python Flask / Node.js (for demo endpoints) |
+| **Backend** | MVC |
 | **WhatsApp Bot** | Web simulator |
 | **USSD Simulator** | HTML/CSS/JS web app |
-| **Merchant App** | React Native (Android APK provided) |
+| **Merchant App** | MVC |
 | **Bank Demo Interface** | HTML/CSS (static) |
-| **Fraud Dashboard** | Flask + Chart.js |
 | **Version Control** | Git + GitHub |
 
 ---
@@ -92,8 +90,7 @@ For the hackathon, we have **four working simulations**:
 ### Prerequisites
 
 - **SQL Server** (Express or Developer edition) – [Download](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- **Python 3.9+** (for backend mock APIs and fraud dashboard)
-- **Node.js** (optional, for merchant app build)
+- **MVC** (for backend mock APIs and fraud dashboard)
 - **Git**
 
 ### Database Setup
@@ -102,6 +99,7 @@ For the hackathon, we have **four working simulations**:
    ```bash
    git clone https://github.com/your-team/ubuntu-pay.git
    cd ubuntu-pay
+
 ### 2\. Set up the database
 
 Open **SQL Server Management Studio** and run:
@@ -111,13 +109,13 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 ```
 
 Then execute the entire [database/Ubuntu.sql](https://database/Ubuntu.sql) script – it creates all tables, stored procedures, and inserts sample customers.
+
 ### 3\. Run the mock backend
 
 ```bash
 
 Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd backend  pip install -r requirements.txt  python app.py   `
 ```
-The mock API runs at http://localhost:5000.
 
 ### 4\. Launch the simulations
 
@@ -127,7 +125,6 @@ The mock API runs at http://localhost:5000.
 |**USSD Simulator**     |Open ```ussd-simulator/index.html.``` Dial \*120\*123# (simulated).                                                   |
 |**Merchant App**       |Follow [merchant-app/README.md](https://merchant-app/README.md) to build the React Native app.                        |
 |**Bank Demo Interface**|Open ```bank-demo/index.html``` – mock of Standard Bank’s view.                                                       |
-|**Fraud Dashboard**    |```cd fraud-dashboard && pip install -r requirements.txt && python dashboard.py``` → visit ```http://localhost:5001```|
 
 All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twilio account needed for the hackathon.
 
@@ -136,20 +133,13 @@ All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twi
 
 |Name                 |Role                   |Background                              |
 |---------------------|---------------------  |----------------------------------------|
-|Mochae               |Backend & Database     |Computer Science, university student    |
+|Mothae               |Backend & Database     |Computer Science, university student    |
 |Panache              |Merchant App & API     |Information Systems, university student |
 |Ashirai              |WhatsApp/USSD Simulator|Data Science, university student        |
 |Jack                 |Demo & Pitch           |Business Informatics, university student|
-|Reapaer              |Database               |Computer Science, UFS student           |
+|Ora                  |Database               |Computer Science, UFS student           |
 
 We are five university students who built this in 36 hours for the \[UFS ITSA - Beat the Banker Hackathon] 2026.
-
-🙏 Acknowledgments
-------------------
-
-*   **Standard Bank** – judges and inspiration for BaaS model
-*   **BBD Software** – judges
-*   **UFS Dept. of Computer Science & Infomatics** – lecturers
 
 🤝 Contributing
 ---------------
@@ -160,11 +150,9 @@ This project was built for a hackathon and is not actively maintained.
 ----------
     
 *   **Live Demo Video**: [YouTube link](https://youtu.be/your-video-id)
-    
 *   **Merchant App APK** (demo): [Download](https://./merchant-app/release/ubuntu-finance-demo.apk)
+*   **Merchant App APK** (demo): [Website Link]()
     
 
 _“A bank account for every person in every township.”_
-
-\`\`\`
    
