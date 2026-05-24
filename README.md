@@ -1,4 +1,4 @@
-<img width="1200" height="300" alt="Untitled design" src="https://github.com/user-attachments/assets/e114d3f6-7cec-46ef-a84a-93e36d71d503" />
+<img width="1200" height="600" alt="banking for everyone  everywhere" src="https://github.com/user-attachments/assets/c734bf56-7ff9-4640-bb81-3c92830e732c" />
 
 # UbuntuProject – Banking for the Unbanked
 
