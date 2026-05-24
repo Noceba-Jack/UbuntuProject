@@ -1,0 +1,58 @@
+@model LoanViewModel
+@{ ViewData["Title"] = "Loans"; ViewData["Nav"] = "loans"; }
+
+<div class="pg on" id="pg-loans">
+    <div class="ph"><h1>Loans</h1><p>Lending &amp; settlement</p></div>
+
+    <div class="card-loan">
+        <div class="sg" style="margin-bottom:0">
+            <div><div class="lbl">Total Lent</div><div class="val">@Model.TotalLent</div></div>
+            <div><div class="lbl">Available</div><div class="val" style="color:#4ade80">@Model.AvailableToLend</div></div>
+            <div><div class="lbl">In Queue</div><div class="val">@Model.TotalQueue</div></div>
+            <div><div class="lbl">Ubuntu Avg</div><div class="val">@Model.UbuntuScoreAvg</div></div>
+        </div>
+    </div>
+
+    <div class="chips" style="margin-bottom:16px">
+        <a href="@Url.Action("Index","Loan")"      class="chip on">Lend</a>
+        <a href="@Url.Action("Settlement","Loan")" class="chip" style="text-decoration:none">Settlement</a>
+    </div>
+
+    @if (Model.LendStep == "form")
+    {
+        <div class="card">
+            <h3>Issue Loan</h3>
+            <form asp-action="LendLookup" method="post">
+                <div class="fg"><label>Loan Number</label><input asp-for="LendLoanNo" placeholder="e.g. LN-2026-045"/></div>
+                <button type="submit" class="btn bp">Lookup</button>
+            </form>
+        </div>
+    }
+    else if (Model.LendStep == "accept")
+    {
+        <div class="card">
+            <h3>Loan Found</h3>
+            <div class="cbox">
+                <div class="crow"><span class="ck">Loan No</span><span class="cv">@Model.LendLoanNo</span></div>
+                <div class="crow"><span class="ck">Amount</span><span class="cv">R 5,000.00</span></div>
+                <div class="crow"><span class="ck">Ubuntu Score</span><span class="cv">82/100</span></div>
+            </div>
+            <form asp-action="LendAccept" method="post">
+                <input type="hidden" asp-for="LendLoanNo"/>
+                <button type="submit" class="btn bok">Accept Loan</button>
+            </form>
+            <form asp-action="LendDecline" method="post" style="margin-top:8px">
+                <button type="submit" class="btn bx">Decline</button>
+            </form>
+        </div>
+    }
+    else if (Model.LendStep == "success")
+    {
+        <div class="suc">
+            <div class="suc-ic">&#9989;</div>
+            <div class="suc-t">Loan Granted!</div>
+            <div class="suc-s">Loan @Model.LendLoanNo approved and issued.</div>
+            <a href="@Url.Action("Index","Loan")" class="btn bp" style="width:170px;display:block;text-align:center;text-decoration:none">Done</a>
+        </div>
+    }
+</div>
