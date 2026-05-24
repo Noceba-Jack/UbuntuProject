@@ -16,6 +16,7 @@
 **11 million South Africans** in townships and rural villages have no bank account. They live entirely on cash. This means:
 
  -❌ No way to borrow R50 for an emergency school fee or taxi fare
+ 
  -❌ No safe way to receive wages or send money to family
  -❌ No credit history to ever qualify for a car or home loan
  -❌ Pay high fees to withdraw cash (if they can find an ATM)
