@@ -109,8 +109,8 @@ All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twi
 |Name                 |Role                        |Background                                |
 |---------------------|----------------------------|------------------------------------------|
 |Mothae               |Merchant App Backend        |Computer Science, 3rd Year UFS Student    |
-|Panache              |Pitch & Whatsapp Simulator  |Information Systems, 3rd Year UFS Student |
-|Ashirai              |WhatsApp Backend            |Computer Science, 3rd Year UFS Student    |
+|Panashe              |Account Management Site |Information Systems, 3rd Year UFS Student |
+|Ashirai              |Account Management Site Backend |Computer Science, 3rd Year UFS Student    |
 |Jack                 |Merchant App Frontend       |Information Systems, 3rd Year UFS Student|
 |Ora                  |Database                    |Computer Science, 3rd Year UFS Student    |
 
