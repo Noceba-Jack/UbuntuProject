@@ -92,6 +92,15 @@ For the hackathon, we have **two working simulations**:
 - **Git + Github**
 
 ## How to run the Merchant App
+1.	Download the ZIP file
+2.	Download visual studio if it is not already installed.
+3.	Extract the contents of the zip file
+4.	Locate the solution (Ubuntu.sln ) file
+5.	Run the Ubuntu.sln file by double clicking the file
+6.	You should see visual studio open
+7.	If a query window appears press the Trust and Continue
+8.	Click the program.cs file to view the code
+9.	The finally in the top left press execute.
 
 
 ## How to run the Account Management Site
@@ -126,5 +135,5 @@ This project was developed exclusively as a competitive hackathon prototype. It 
 *   **Merchant App** (demo): [Project Instructions](#how-to-run-the-merchant-app)
     
 
-_“A bank account for every person in every township.”_
+_“A bank account for every person in every township and rural area.”_
    
