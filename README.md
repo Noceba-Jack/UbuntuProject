@@ -1,4 +1,4 @@
-<img width="600" height="200" alt="Untitled design" src="https://github.com/user-attachments/assets/e114d3f6-7cec-46ef-a84a-93e36d71d503" />
+<img width="900" height="200" alt="Untitled design" src="https://github.com/user-attachments/assets/e114d3f6-7cec-46ef-a84a-93e36d71d503" />
 
 # UbuntuProjects – Banking for the Unbanked
 
