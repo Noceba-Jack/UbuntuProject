@@ -6,7 +6,7 @@
 
 
 > **Two interconnected systems** that bring formal banking to the 11 million unbanked South Africans in townships and rural areas.  
-> **Ubuntu Account** – a bank account on WhatsApp/USSD.  
+> **Ubuntu Account** – a bank account via WhatsApp/USSD.  
 > **UbuntuFinance** – a BaaS platform turning local merchants into micro‑banks.
 
 ---
