@@ -95,11 +95,11 @@ For the hackathon, we have **four working simulations**:
 
 ### Database Setup
 
-1. Clone the repository:
+### 1\. Clone the repository:
    ```bash
    git clone https://github.com/your-team/ubuntu-pay.git
    cd ubuntu-pay
-
+  ```
 ### 2\. Set up the database
 
 Open **SQL Server Management Studio** and run:
