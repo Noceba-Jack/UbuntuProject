@@ -91,10 +91,10 @@ For the hackathon, we have **two working simulations**:
 - **React Native** (Whatsapp & USSD Account Management)
 - **Git + Github**
 
-### How to run the Merchant App
+## How to run the Merchant App
+---
 
-
-### 4\. Launch the simulations
+### Launch the simulations
 
 |Component              |How to run                                                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
