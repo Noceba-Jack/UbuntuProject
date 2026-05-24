@@ -148,10 +148,8 @@ This project was built for a hackathon and is not actively maintained.
 
 📬 Simulations
 ----------
-    
-*   **Live Demo Video**: [YouTube link](https://youtu.be/your-video-id)
-*   **Merchant App APK** (demo): [Download](https://./merchant-app/release/ubuntu-finance-demo.apk)
-*   **Merchant App APK** (demo): [Website Link]()
+*   **Whatsapp & Standard Bank Side** (demo): [Website Link](https://./merchant-app/release/ubuntu-finance-demo.apk)
+*   **Merchant App** (demo): [Website Link]()
     
 
 _“A bank account for every person in every township.”_
