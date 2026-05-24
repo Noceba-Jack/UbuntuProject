@@ -148,7 +148,7 @@ This project was built for a hackathon and is not actively maintained.
 
 📬 Simulations
 ----------
-*   **Whatsapp & Standard Bank Side** (demo): [Website Link](https://./merchant-app/release/ubuntu-finance-demo.apk)
+*   **Whatsapp & Standard Bank Side** (demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
 *   **Merchant App** (demo): [Website Link]()
     
 
