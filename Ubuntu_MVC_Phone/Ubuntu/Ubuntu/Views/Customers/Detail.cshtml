@@ -1,0 +1,51 @@
+@model Ubuntu.Models.Customer
+@{
+    ViewData["Title"] = Model.Name;
+    ViewData["Nav"]   = "customers";
+    string initials   = string.Join("", Model.Name.Split(' ').Take(2).Select(w => w[0].ToString()));
+    string badgeClass = Model.Status switch {
+        Ubuntu.Models.CustomerStatus.Active  => "bg",
+        Ubuntu.Models.CustomerStatus.HasLoan => "bb",
+        Ubuntu.Models.CustomerStatus.Overdue => "br",
+        _ => "bb"
+    };
+    string statusLabel = Model.Status switch {
+        Ubuntu.Models.CustomerStatus.Active  => "Active",
+        Ubuntu.Models.CustomerStatus.HasLoan => "Has Loan",
+        Ubuntu.Models.CustomerStatus.Overdue => "Overdue",
+        _ => Model.Status.ToString()
+    };
+}
+
+<div class="pg on" id="pg-customers">
+    <button class="back" onclick="window.history.back()">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+        Customers
+    </button>
+
+    <div class="card" style="display:flex;align-items:center;gap:14px;margin-bottom:14px">
+        <div class="av av-lg">@initials</div>
+        <div>
+            <div style="font-size:1.05rem;font-weight:700;color:#fff">@Model.Name</div>
+            <div class="muted">@Model.Id</div>
+            <span class="badge @badgeClass" style="margin-top:4px;display:inline-block">@statusLabel</span>
+        </div>
+    </div>
+
+    <div class="sg">
+        <div class="sc"><div class="lbl">Balance</div><div class="val">@Model.BalanceDisplay</div></div>
+        <div class="sc"><div class="lbl">Loan Due</div><div class="val">@Model.LoanDueDisplay</div></div>
+        <div class="sc"><div class="lbl">Ubuntu Score</div><div class="val">@Model.UbuntuScoreDisplay</div></div>
+        <div class="sc"><div class="lbl">Status</div><div class="val" style="font-size:.82rem">@statusLabel</div></div>
+    </div>
+
+    <h3 style="margin-bottom:8px">Recent Activity</h3>
+    <div class="card" style="padding:12px">
+        @foreach (var a in Model.RecentActivity)
+        {
+            <div style="padding:6px 0;font-size:.8rem;color:rgba(255,255,255,.8);border-bottom:1px solid rgba(255,255,255,.06)">
+                @a
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,59 @@
+@model HomeViewModel
+@{ ViewData["Title"] = "Home"; ViewData["Nav"] = "home"; }
+
+<div class="pg on" id="pg-home">
+    <div class="ph">
+        <h1>Good morning, @Model.MerchantName &#128075;</h1>
+        <p>@Model.MerchantId</p>
+    </div>
+
+    <div class="card card-blue">
+        <div class="lbl">Account Balance</div>
+        <div class="val-xl">@Model.AccountBalance</div>
+        <div class="muted">Merchant ID: @Model.MerchantId</div>
+    </div>
+
+    <div class="sg">
+        <div class="sc">
+            <div class="lbl">Customers</div>
+            <div class="val">@Model.CustomerCount</div>
+        </div>
+        <div class="sc">
+            <div class="lbl">Loans Due</div>
+            <div class="val" style="color:#fb923c">@Model.LoansDue</div>
+            <div class="muted" style="font-size:.62rem">@Model.LoansLabel</div>
+        </div>
+    </div>
+
+    <div class="sh">
+        <h3>Recent Transactions</h3>
+        <button class="sa" onclick="go('transact')">See all</button>
+    </div>
+
+    <div class="card card-p">
+        @{ var txList = Model.RecentTransactions.ToList(); }
+        @for (int i = 0; i < txList.Count; i++)
+        {
+            var t = txList[i];
+            string icon = t.Type switch {
+                Ubuntu.Models.TransactionType.Deposit     => "&#128176;",
+                Ubuntu.Models.TransactionType.Withdrawal  => "&#127970;",
+                Ubuntu.Models.TransactionType.LoanGranted => "&#128203;",
+                Ubuntu.Models.TransactionType.LoanRepaid  => "&#128260;",
+                _ => "&#128179;"
+            };
+            bool isDebit = t.AmountDisplay.StartsWith("-");
+            <div class="tr">
+                <div class="tr-l">
+                    <div class="tr-ic">@Html.Raw(icon)</div>
+                    <div>
+                        <div class="tr-n">@t.CustomerName</div>
+                        <div class="tr-d">@t.Description &middot; @t.Date.ToString("dd MMM")</div>
+                    </div>
+                </div>
+                <div class="tr-a @(isDebit ? "neg" : "")">@t.AmountDisplay</div>
+            </div>
+            if (i < txList.Count - 1) { <div class="dv"></div> }
+        }
+    </div>
+</div>
