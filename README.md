@@ -5,6 +5,10 @@
 [![.NET MVC](https://img.shields.io/badge/.NET%20MVC-512BD4?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/)
 [![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactnative.dev/)
 [![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
+[![Hackathon](https://img.shields.io/badge/Hackathon-Beat_The_Banker_2026-0052FF?style=for-the-badge&logo=google-cloud&logoColor=white)](https://github.com/Noceba-Jack/UbuntuProject)
+[![Status](https://img.shields.io/badge/Status-Prototype-00C853?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/Noceba-Jack/UbuntuProject)
+[![Team](https://img.shields.io/badge/Team-90th_Minute-FF6D00?style=for-the-badge&logo=microsoft-teams&logoColor=white)](https://github.com/Noceba-Jack/UbuntuProject)
+[![Database](https://img.shields.io/badge/Database-SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
 
 ![Hackathon](https://img.shields.io/badge/Hackathon-2026-blue) ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Database](https://img.shields.io/badge/Database-SQL%20Server-red) ![GitHub language count](https://img.shields.io/github/languages/count/Noceba-Jack/UbuntuProject)
 
