@@ -18,3 +18,5 @@ Navigate to the root directory of the project and install all necessary dependen
 
 ```bash
 npm install
+
+Alternatively you can acess it on: https://ubuntusystem.netlify.app/
