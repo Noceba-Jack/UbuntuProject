@@ -91,29 +91,8 @@ For the hackathon, we have **two working simulations**:
 - **React Native** (Whatsapp & USSD Account Management)
 - **Git + Github**
 
-### Database Setup
+### How to run the Merchant App
 
-### 1\. Clone the repository:
-   ```bash
-   git clone https://github.com/your-team/ubuntu-pay.git
-   cd ubuntu-pay
-  ```
-### 2\. Set up the database
-
-Open **SQL Server Management Studio** and run:
-
-```sql
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   CREATE DATABASE UbuntuPayBaaSDB;   `
-```
-
-Then execute the entire [database/Ubuntu.sql](https://database/Ubuntu.sql) script – it creates all tables, stored procedures, and inserts sample customers.
-
-### 3\. Run the mock backend
-
-```bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd backend  pip install -r requirements.txt  python app.py   `
-```
 
 ### 4\. Launch the simulations
 
