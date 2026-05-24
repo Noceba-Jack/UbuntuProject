@@ -7,7 +7,7 @@
 
 > **Two interconnected systems** that bring formal banking to the 11 million unbanked South Africans in townships and rural areas.  
 > **Ubuntu Account** – a bank account via WhatsApp/USSD.  
-> **UbuntuFinance** – a BaaS platform turning local merchants into micro‑banks.
+> **Ubuntu Finance** – a BaaS platform turning local merchants into micro‑banks.
 
 ---
 
@@ -38,7 +38,7 @@ A full bank account (offered by Standard Bank via UbuntuAccount) that works on a
 - **Open in 5 minutes** via WhatsApp or USSD – no branch, no app download.
 - **No data required** – WhatsApp free tier + USSD works on R200 feature phones.
 - **Micro‑loans starting at R50** – no credit history needed. Repayment is automatic from incoming funds.
-- **Cash‑in / Cash‑out** at any UbuntuFinance merchant (local tuck shop/spaza).
+- **Cash‑in / Cash‑out** at any Ubuntu Finance merchant (local tuck shop/spaza/individual who meets the requirements).
 - **UbuntuScore** – alternative credit scoring using transaction behaviour, airtime purchases, and repayment history.
 
 ### 2. UbuntuFinance (For Merchants / Micro‑Banks)
@@ -60,13 +60,12 @@ A **Banking‑as‑a‑Service** platform that allows approved local merchants t
 
 ## Demo Components
 
-For the hackathon, we have **four working simulations**:
+For the hackathon, we have **two working simulations**:
 
 | Component | Technology | Status |
 |-----------|------------|--------|
-| **WhatsApp Bot & USSD Simulation** | React Native (Android demo) | ✅ Simulated |
-| **UbuntuFinance Merchant App** | ASP.NET MVC | ✅ Working simulation |
-| **Bank App Demo Interface** | React Native (Android demo) | ✅ simulated |
+| **Account Management Site** | React Native (Android demo) | ✅ Simulated |
+| **Ubuntu Finance Merchant App** | ASP.NET MVC | ✅ Working simulation |
 
 > **Note:** All components are simulated for the hackathon. Real integration with WhatsApp Business API and banking rails would be implemented post‑hackathon.
 
@@ -77,11 +76,8 @@ For the hackathon, we have **four working simulations**:
 | Layer | Technology |
 |-------|------------|
 | **Database** | Microsoft SQL Server (Express) |
-| **Backend** | ASP.NET MVC |
-| **WhatsApp Bot** | React Native |
-| **USSD Simulator** | React Native (Web simulation) |
+| **Account Management Site** | React Native |
 | **Merchant App** | ASP.NET MVC |
-| **Bank Demo Interface** | React Native (Web simulation) |
 | **Version Control** | Git + GitHub |
 
 ---
@@ -123,9 +119,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 |Component              |How to run                                                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
-|**WhatsApp Simulator** |Open ```https://glistening-genie-3e08fa.netlify.app```. Type``` Hi ```to start.                                       |
-|**Merchant App**       |Follow [merchant-app/README.md](https://merchant-app/README.md) to build the MVC app.                                 |
-|**Bank Demo Interface**|Open ```bank-demo/index.html``` – mock of Standard Bank’s view.                                                       |
+|**Account Management Site** |Open ```https://glistening-genie-3e08fa.netlify.app```. Type``` Hi ```to start. Also explore the MicroLoan, QR payment,  |
+|**Merchant App**       |Follow [merchant-app/README.md](https://merchant-app/README.md) to run the MVC app.                                 |                                 |
 
 All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twilio account needed for the hackathon.
 
@@ -149,8 +144,8 @@ This project was built for a hackathon and is not actively maintained.
 
 📬 Simulations
 ----------
-*   **Whatsapp & Standard Bank Side** (web app demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
-*   **Merchant App** (demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
+*   **Account Management Site** (web app demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
+*   **Merchant App** (demo): [Website Link]()
     
 
 _“A bank account for every person in every township.”_
