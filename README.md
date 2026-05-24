@@ -13,7 +13,7 @@
 
 ## The Problem
 
-**11 million South Africans** in townships and rural villages have no bank account. They live entirely on cash. This means:
+**11 million South Africans** in townships and rural villages are underbanked. They live entirely on cash. This means:
 
  ❌ No way to borrow R50 for an emergency school fee or taxi fare
  
@@ -64,8 +64,8 @@ For the hackathon, we have **four working simulations**:
 
 | Component | Technology | Status |
 |-----------|------------|--------|
-| **WhatsApp Bot Simulation** | React Native (Android demo) | ✅ Simulated |
-| **UbuntuFinance Merchant App** | MVC | ✅ Working simulation |
+| **WhatsApp Bot & USSD Simulation** | React Native (Android demo) | ✅ Simulated |
+| **UbuntuFinance Merchant App** | ASP.NET MVC | ✅ Working simulation |
 | **Bank App Demo Interface** | React Native (Android demo) | ✅ simulated |
 
 > **Note:** All components are simulated for the hackathon. Real integration with WhatsApp Business API and banking rails would be implemented post‑hackathon.
@@ -77,11 +77,11 @@ For the hackathon, we have **four working simulations**:
 | Layer | Technology |
 |-------|------------|
 | **Database** | Microsoft SQL Server (Express) |
-| **Backend** | MVC |
-| **WhatsApp Bot** | Web simulator |
-| **USSD Simulator** | HTML/CSS/JS web app |
-| **Merchant App** | MVC |
-| **Bank Demo Interface** | HTML/CSS (static) |
+| **Backend** | ASP.NET MVC |
+| **WhatsApp Bot** | React Native |
+| **USSD Simulator** | React Native (Web simulation) |
+| **Merchant App** | ASP.NET MVC |
+| **Bank Demo Interface** | React Native (Web simulation) |
 | **Version Control** | Git + GitHub |
 
 ---
@@ -91,8 +91,9 @@ For the hackathon, we have **four working simulations**:
 ### Prerequisites
 
 - **SQL Server** (Express or Developer edition) – [Download](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- **MVC** (for backend mock APIs and fraud dashboard)
-- **Git**
+- **ASP.NET MVC** (for Merchant App)
+- **React Native** (Whatsapp & USSD Account Management)
+- **Git + Github**
 
 ### Database Setup
 
@@ -136,10 +137,10 @@ All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twi
 |Mothae               |Merchant App Backend        |Computer Science, 3rd Year UFS Student    |
 |Panache              |Pitch & Whatsapp Simulator  |Information Systems, 3rd Year UFS Student |
 |Ashirai              |WhatsApp Backend            |Computer Science, 3rd Year UFS Student    |
-|Jack                 |Merchant App Frontend       |Business Informatics, 3rd Year UFS Student|
+|Jack                 |Merchant App Frontend       |Information Systems, 3rd Year UFS Student|
 |Ora                  |Database                    |Computer Science, 3rd Year UFS Student    |
 
-We are five university students who built this in 36 hours for the \[UFS ITSA - Beat the Banker Hackathon] 2026.
+We are five university students who built this in 12 hours for the \[UFS ITSA - Beat the Banker Hackathon] 2026.
 
 🤝 Contributing
 ---------------
@@ -149,7 +150,7 @@ This project was built for a hackathon and is not actively maintained.
 📬 Simulations
 ----------
 *   **Whatsapp & Standard Bank Side** (web app demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
-*   **Merchant App** (demo): [Website Link]()
+*   **Merchant App** (demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
     
 
 _“A bank account for every person in every township.”_
