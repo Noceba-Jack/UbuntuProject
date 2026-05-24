@@ -92,15 +92,16 @@ For the hackathon, we have **two working simulations**:
 - **Git + Github**
 
 ## How to run the Merchant App
----
+
 
 ## How to run the Account Management Site
----
 1. Open ```https://glistening-genie-3e08fa.netlify.app```.
 2. Type``` Hi ```to start.
 3. Also explore the MicroLoan, QR payment, Fraud shied, Bank View, Chat banking, USSD and Onbording.
 
 All demos work out‑of‑the‑box with simulated data. No real WhatsApp account needed for the hackathon.
+
+## Project Info
 
 👥 Team
 -------
@@ -115,7 +116,7 @@ All demos work out‑of‑the‑box with simulated data. No real WhatsApp accoun
 
 We are five university students who built this in 12 hours for the \[UFS ITSA - Beat the Banker Hackathon] 2026.
 
-## 🤝 Contributing & Maintenance
+🤝 Contributing & Maintenance
 ---
 This project was developed exclusively as a competitive hackathon prototype. It is not actively maintained or monitored for production pull requests.
 
