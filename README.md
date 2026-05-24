@@ -8,9 +8,6 @@
 [![Hackathon](https://img.shields.io/badge/Hackathon-Beat_The_Banker_2026-0052FF?style=for-the-badge&logo=google-cloud&logoColor=white)](https://github.com/Noceba-Jack/UbuntuProject)
 [![Status](https://img.shields.io/badge/Status-Prototype-00C853?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/Noceba-Jack/UbuntuProject)
 [![Team](https://img.shields.io/badge/Team-90th_Minute-FF6D00?style=for-the-badge&logo=microsoft-teams&logoColor=white)](https://github.com/Noceba-Jack/UbuntuProject)
-[![Database](https://img.shields.io/badge/Database-SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
-
-![Hackathon](https://img.shields.io/badge/Hackathon-2026-blue) ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Database](https://img.shields.io/badge/Database-SQL%20Server-red) ![GitHub language count](https://img.shields.io/github/languages/count/Noceba-Jack/UbuntuProject)
 
 
 > **Two interconnected systems** that bring formal banking to the 11 million unbanked South Africans in townships and rural areas.  
@@ -108,13 +105,16 @@ For the hackathon, we have **two working simulations**:
 6.	You should see visual studio open
 7.	If a query window appears press the Trust and Continue
 8.	Click the program.cs file to view the code
-9.	The finally in the top left press execute.
+9.	Then finally in the top left press execute.
 
 
 ## How to run the Account Management Site
-1. Open ```https://glistening-genie-3e08fa.netlify.app```.
-2. Type``` Hi ```to start.
-3. Also explore the MicroLoan, QR payment, Fraud shied, Bank View, Chat banking, USSD and Onbording.
+Navigate to the root directory of the project and install all necessary dependencies for the monorepo:
+
+```bash
+npm install
+```
+Alternatively you can acess it on: https://ubuntusystem.netlify.app/
 
 All demos work out‑of‑the‑box with simulated data. No real WhatsApp account needed for the hackathon.
 
@@ -139,7 +139,7 @@ This project was developed exclusively as a competitive hackathon prototype. It 
 
 📬 Simulations
 ----------
-*   **Account Management Site** (web app demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
+*   **Account Management Site** (web app demo): [Website Link](https://ubuntusystem.netlify.app/)
 *   **Merchant App** (demo): [Project Instructions](#how-to-run-the-merchant-app)
     
 
