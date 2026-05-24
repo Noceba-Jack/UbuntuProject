@@ -98,7 +98,7 @@ For the hackathon, we have **two working simulations**:
 
 |Component              |How to run                                                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
-|**Account Management Site** |Open ```https://glistening-genie-3e08fa.netlify.app```. Type``` Hi ```to start. Also explore the MicroLoan, QR payment,  |
+|**Account Management Site** |Open ```https://glistening-genie-3e08fa.netlify.app```. Type``` Hi ```to start. Also explore the MicroLoan, QR payment, Fraud shied, Bank View, Chat banking, USSD and Onbording.  |
 |**Merchant App**       |Follow [merchant-app/README.md](https://merchant-app/README.md) to run the MVC app.                                 |                                 |
 
 All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twilio account needed for the hackathon.
