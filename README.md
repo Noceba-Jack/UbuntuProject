@@ -88,7 +88,7 @@ For the hackathon, we have **two working simulations**:
 
 - **SQL Server** (Express or Developer edition) – [Download](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - **ASP.NET MVC** (for Merchant App)
-- **React Native** (Whatsapp & USSD Account Management)
+- **React Native** (Account Management Site)
 - **Git + Github**
 
 ## How to run the Merchant App
@@ -99,7 +99,7 @@ For the hackathon, we have **two working simulations**:
 |Component              |How to run                                                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
 |**Account Management Site** |Open ```https://glistening-genie-3e08fa.netlify.app```. Type``` Hi ```to start. Also explore the MicroLoan, QR payment, Fraud shied, Bank View, Chat banking, USSD and Onbording.  |
-|**Merchant App**       |Follow [merchant-app/README.md](https://merchant-app/README.md) to run the MVC app.                                 |                                 |
+|**Merchant App**       |Follow the [How to run merchant app instructions](##how-to-run-the-merchant-app) to run the app.                                 |                                 |
 
 All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twilio account needed for the hackathon.
 
