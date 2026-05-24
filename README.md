@@ -1,4 +1,5 @@
 <img width="600" height="200" alt="Untitled design" src="https://github.com/user-attachments/assets/e114d3f6-7cec-46ef-a84a-93e36d71d503" />
+
 # UbuntuProjects – Banking for the Unbanked
 
 ![Hackathon](https://img.shields.io/badge/Hackathon-2026-blue) ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Database](https://img.shields.io/badge/Database-SQL%20Server-red) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
