@@ -94,14 +94,13 @@ For the hackathon, we have **two working simulations**:
 ## How to run the Merchant App
 ---
 
-### Launch the simulations
+## How to run the Account Management Site
+---
+1. Open ```https://glistening-genie-3e08fa.netlify.app```.
+2. Type``` Hi ```to start.
+3. Also explore the MicroLoan, QR payment, Fraud shied, Bank View, Chat banking, USSD and Onbording.
 
-|Component              |How to run                                                                                                            |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-|**Account Management Site** |Open ```https://glistening-genie-3e08fa.netlify.app```. Type``` Hi ```to start. Also explore the MicroLoan, QR payment, Fraud shied, Bank View, Chat banking, USSD and Onbording.  |
-|**Merchant App**       |Follow the [How to run merchant app instructions](##how-to-run-the-merchant-app) to run the app.                                 |                                 |
-
-All demos work out‑of‑the‑box with simulated data. No real WhatsApp or Twilio account needed for the hackathon.
+All demos work out‑of‑the‑box with simulated data. No real WhatsApp account needed for the hackathon.
 
 👥 Team
 -------
