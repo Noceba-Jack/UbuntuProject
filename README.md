@@ -123,7 +123,7 @@ This project was developed exclusively as a competitive hackathon prototype. It 
 📬 Simulations
 ----------
 *   **Account Management Site** (web app demo): [Website Link](https://glistening-genie-3e08fa.netlify.app/)
-*   **Merchant App** (demo): [Project Instructions](#)
+*   **Merchant App** (demo): [Project Instructions](#how-to-run-merchant-app)
     
 
 _“A bank account for every person in every township.”_
